@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(https://free4kwallpapers.com/uploads/wallpaper/aesthetic-city-wallpaper-1600x900-wallpaper.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1::first-letter{
+    color: orange;
+}
+.span::first-letter{
+    color: blue;
+}
+.button{
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-top: 50px;
+}
